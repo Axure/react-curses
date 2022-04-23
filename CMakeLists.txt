@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(react_curses)
+set(CMAKE_CXX_STANDARD 20)
 
 set(CURSES_NEED_NCURSES TRUE)
 find_package(Curses REQUIRED)
